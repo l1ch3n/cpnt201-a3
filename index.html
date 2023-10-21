@@ -3,9 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--icons-->
+  <script src="https://kit.fontawesome.com/2e47494aa0.js" crossorigin="anonymous"></script>
+  <title>cpnt201-a3</title>
 </head>
 <body>
+  <!-- Navigation -->
+    <nav class="flex items-center justify-between flex-wrap bg-green-500 p-6">
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M512 32c0 113.6-84.6 207.5-194.2 222c-7.1-53.4-30.6-101.6-65.3-139.3C290.8 46.3 364 0 448 0h32c17.7 0 32 14.3 32 32zM0 96C0 78.3 14.3 64 32 64H64c123.7 0 224 100.3 224 224v32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V320C100.3 320 0 219.7 0 96z"/></svg>
+        <span class="font-semibold text-xl tracking-tight">Plant Shop</span>
+      </div>
+      <div class="block lg:hidden"> 
+        <button class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+      </div>
+      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="text-sm lg:flex-grow">
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-black mr-4">
+            About
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-black mr-4">
+            Contact
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-black">
+            Gallery
+          </a>
+        </div>
+        <div>
+          <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-black hover:bg-white mt-4 lg:mt-0">Shop</a>
+        </div>
+      </div>
+    </nav>
+  <!-- Hero image -->
+  <img src="images/alt-hero-image.jpg" alt="colorful succulent plants">
+  <img class="object-fill h-40 w-100 ...">
+  <!-- content -->
+  <h1 class="text-3xl text-center text-green-700">Thank you for visiting the Plant Shop</h1>
+  <p class="text-xl text-center bg-green-300">Calgary's best selection on plants since 1992</p>
+  <p class="text-xl text-center text-white bg-green-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis cursus in hac habitasse platea dictumst quisque. Blandit massa enim nec dui nunc mattis enim ut. A lacus vestibulum sed arcu non odio. Augue lacus viverra vitae congue eu. Ac odio tempor orci dapibus ultrices in iaculis nunc. Venenatis a condimentum vitae sapien pellentesque habitant morbi. Dignissim sodales ut eu sem integer vitae justo eget. Orci porta non pulvinar neque. Tellus pellentesque eu tincidunt tortor aliquam. Sed nisi lacus sed viverra. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. In egestas erat imperdiet sed euismod nisi porta. Molestie at elementum eu facilisis.
+
+    Auctor urna nunc id cursus. Augue eget arcu dictum varius duis at. Purus viverra accumsan in nisl nisi. Neque gravida in fermentum et sollicitudin ac orci phasellus. Nulla pharetra diam sit amet nisl suscipit. Velit scelerisque in dictum non. Dolor magna eget est lorem ipsum dolor. Risus viverra adipiscing at in tellus. Morbi blandit cursus risus at. Scelerisque eu ultrices vitae auctor eu augue ut. Massa id neque aliquam vestibulum morbi blandit cursus risus at. Tempor orci dapibus ultrices in iaculis nunc sed augue. Velit dignissim sodales ut eu sem integer vitae. Imperdiet massa tincidunt nunc pulvinar. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Est lorem ipsum dolor sit amet consectetur. Placerat duis ultricies lacus sed.
+    
+    Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Ut faucibus pulvinar elementum integer. Ipsum a arcu cursus vitae congue mauris rhoncus. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Sed felis eget velit aliquet sagittis id consectetur purus. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Tellus rutrum tellus pellentesque eu tincidunt tortor.
+    
+    Lectus magna fringilla urna porttitor rhoncus dolor. Blandit turpis cursus in hac habitasse platea. Vitae et leo duis ut diam quam. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Pharetra magna ac placerat vestibulum lectus. Arcu non odio euismod lacinia. Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna. Egestas sed sed risus pretium quam vulputate dignissim. Massa tempor nec feugiat nisl pretium fusce id velit. Felis imperdiet proin fermentum leo vel orci porta. Nullam non nisi est sit amet facilisis magna etiam. Non curabitur gravida arcu ac. Adipiscing enim eu turpis egestas pretium.
+    
+    Ultricies lacus sed turpis tincidunt id aliquet risus. Enim ut sem viverra aliquet eget sit. Sed adipiscing diam donec adipiscing tristique risus. Nec ultrices dui sapien eget. Dignissim sodales ut eu sem integer vitae justo. Quis commodo odio aenean sed adipiscing diam. Sed faucibus turpis in eu mi bibendum neque egestas. Lectus mauris ultrices eros in cursus turpis massa tincidunt dui. Sit amet dictum sit amet. Nulla at volutpat diam ut venenatis tellus in metus. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus. Ipsum dolor sit amet consectetur adipiscing elit duis tristique. Vivamus at augue eget arcu. Mauris pellentesque pulvinar pellentesque habitant morbi. Adipiscing elit duis tristique sollicitudin nibh sit amet. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Aliquam sem et tortor consequat id porta nibh venenatis. Nunc lobortis mattis aliquam faucibus purus in.
+    
+    Odio ut sem nulla pharetra diam sit amet nisl. Faucibus pulvinar elementum integer enim neque volutpat ac. Tellus cras adipiscing enim eu turpis. Ullamcorper eget nulla facilisi etiam. Tempor orci eu lobortis elementum nibh tellus molestie nunc. Suscipit tellus mauris a diam maecenas sed enim ut sem. Sagittis orci a scelerisque purus semper eget duis at tellus. Elit pellentesque habitant morbi tristique senectus et netus. Morbi tristique senectus et netus. Placerat in egestas erat imperdiet. Ut ornare lectus sit amet. Augue neque gravida in fermentum et sollicitudin. Aenean vel elit scelerisque mauris pellentesque. Consectetur purus ut faucibus pulvinar elementum. Ullamcorper a lacus vestibulum sed arcu non. Lectus arcu bibendum at varius vel pharetra vel turpis. Tortor id aliquet lectus proin nibh. Tristique senectus et netus et malesuada fames ac. Curabitur gravida arcu ac tortor. Elit scelerisque mauris pellentesque pulvinar.
+    
+    Fames ac turpis egestas integer eget aliquet nibh. Nec nam aliquam sem et tortor consequat id porta. Amet cursus sit amet dictum sit amet justo donec enim. Netus et malesuada fames ac turpis egestas integer. Viverra maecenas accumsan lacus vel facilisis. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. Massa ultricies mi quis hendrerit dolor magna eget est lorem. Porttitor rhoncus dolor purus non. Ut faucibus pulvinar elementum integer enim neque. Pharetra vel turpis nunc eget lorem dolor sed viverra. Adipiscing diam donec adipiscing tristique risus. Nam at lectus urna duis convallis convallis tellus. Habitant morbi tristique senectus et netus et malesuada fames.
+    
+    Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Feugiat vivamus at augue eget arcu dictum varius duis at. Cursus risus at ultrices mi tempus imperdiet. Vitae purus faucibus ornare suspendisse sed nisi lacus. Egestas purus viverra accumsan in nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Tellus orci ac auctor augue. Sed arcu non odio euismod lacinia at. Pellentesque nec nam aliquam sem. Nunc faucibus a pellentesque sit amet porttitor eget dolor.
+    
+    Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci. Ornare arcu dui vivamus arcu felis. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. Suspendisse interdum consectetur libero id. Quis viverra nibh cras pulvinar mattis nunc sed blandit. Aliquam purus sit amet luctus venenatis. Ipsum dolor sit amet consectetur adipiscing elit. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. Turpis cursus in hac habitasse platea dictumst quisque sagittis. Risus commodo viverra maecenas accumsan. Scelerisque purus semper eget duis at. Placerat orci nulla pellentesque dignissim enim. Elementum curabitur vitae nunc sed velit dignissim sodales. Parturient montes nascetur ridiculus mus mauris. Eget arcu dictum varius duis.
+    
+    Dolor magna eget est lorem ipsum dolor sit amet consectetur. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Risus sed vulputate odio ut enim. Dolor magna eget est lorem. Sem et tortor consequat id porta nibh venenatis cras sed. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Integer quis auctor elit sed vulputate mi. Egestas erat imperdiet sed euismod nisi porta lorem. Odio morbi quis commodo odio. Semper viverra nam libero justo laoreet. Non diam phasellus vestibulum lorem sed risus ultricies. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Nunc sed id semper risus in hendrerit gravida rutrum quisque. Dolor purus non enim praesent. Dui nunc mattis enim ut tellus elementum sagittis vitae. Aliquet nibh praesent tristique magna. Fames ac turpis egestas integer eget.</p>
+  <footer>
+    <p>&copy Nicole Shukin 2023</p>
+  </footer>
+
   
 </body>
 </html>
