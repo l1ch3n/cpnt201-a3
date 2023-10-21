@@ -2,8 +2,8 @@
 
 *By Nicole Shukin*
 
-Deployed Github page
-Github repo
+[Deployed Github page](https://l1ch3n.github.io/cpnt201-a3/)
+[Github repo](https://github.com/l1ch3n/cpnt201-a3)
 
 
 ## attributions:
